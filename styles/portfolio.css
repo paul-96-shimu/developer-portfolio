@@ -16,7 +16,7 @@ body{
     color: white;
     font-size: 20px;
     font-weight: 700;
-    padding: 10px 25px;
+    padding: 10px 35px;
 }
 .section-title{
     color: #181818;
@@ -25,24 +25,29 @@ body{
      font-weight: 700;
 }
 .section-description{
-    color: #a51919;
+    color:  #757575;
     text-align: center;
     font-size: 18px;
-     
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
 }
 /* nav related styles*/
 nav{
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     margin: 0 200px;
+    
 }
 .nav-title{
     color: #181818;
+    font-size: 45px;
+    font-weight: 800;
 }
 nav li {
     list-style: none;
-    margin: 0 200px;
+    margin-right: 50px;
     
 }
 nav a{
@@ -52,16 +57,21 @@ nav a{
 /* header related styles */
 .header{
     background-color: antiquewhite;
-    background-image: url('../images/background.jpg');
+    background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
+    padding: 10px;
 }
 .banner{
-padding: 30px 30px 30px 150px;
-display: flex;
+     padding: 30px 30px 30px 150px;
+     display: flex;
+     align-items: center;
+}
+.banner-content{
+    max-width: 500px;
 }
 .banner .profile-pic{
-    width: 100px;
+    width: 300px;
 }
 .banner-greeting {
     font-size: 45px;
@@ -71,8 +81,16 @@ display: flex;
 .banner-title{
     font-size: 85px;
     font-weight: 70px;
-    margin-top: 5px;
-}
+    margin-top: 5px;}
+
+.banner-description{
+    color:  #757575;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    }
+
 /* main section styles*/
 main{
     max-width: 1140px;
@@ -81,12 +99,18 @@ main{
 
 /* about section styles*/
 .about{
-    padding: 10px;
+    padding: 130px;
     border-radius: 10px;
-    background-color: #a51919;
+    background-color:  #FFF8F3;
     margin: 130px 0;
 }
 .about-info-container{
     display: flex;
     justify-content: space-around;
+}
+.about-info{
+    text-align: center
+}
+#what-i-do-description{
+    padding: 30px 150px;
 }
